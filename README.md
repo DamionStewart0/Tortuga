@@ -73,8 +73,8 @@ Component Hierarchy
 
 
 ### Component Breakdown
-| component|type       | state | props |             description                   |
-| -------- | ----------|-------|-------| ---------- -------------------------------|
+| component|   type    | state | props |             description                   |
+| :------: | :--------:|:-----:|:-----:| :----------------------------------------:|
 | Header   |functional |  n    | n     | Header will contain the navgation and logo|
 | Nav      |functional |  y    | n     | Nav will  link different pages            |
 | Login    |functional |  y    | y     | User can register or login to account     |
