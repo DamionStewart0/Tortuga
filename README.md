@@ -27,11 +27,10 @@ Tortuga MVP is to complete full CRUD capability for creating, updating and destr
 
 Goals
 
-    Create a user profile to store recipes
 
-    Full CRUD workflow for recipe component
+    Full CRUD workflow for review component
 
-    Create seed data to setup API with
+    Create seed data to setup API
 
     Execute full-stack application development
 
@@ -41,21 +40,23 @@ React 	powers the application functionality/environment
 React Router 	allows application to be navigable without having to refresh the page
 Ruby 	dynamic, open source programming language that focuses on simplifying code and making it more productive.
 Rails 	server-side web application framework
-Bootstrap 	a component library that allows for easy styling using pre-built components
+Material UI 	a component library that allows for easy styling using pre-built component
 
 
 
-Database - ERD
-### https://app.diagrams.net/#G1N_f7x7OjqdMG3JZDANo0iOxmAYpiIbSh
+#### Database - ERD
+ https://app.diagrams.net/#G1N_f7x7OjqdMG3JZDANo0iOxmAYpiIbSh
 
 Client (Front End)
 Wireframes
 
     Desktop View
 
-Desktop Prototype
+#### Desktop Prototype
 
-    Mobile View
+https://wireframepro.mockflow.com/view/M18340d28b265d0f99d5d495e790a2c2a1614960151674#/page/14acbeaa4f51416dbb114548fb063f48
+
+
 
 Mobile Prototype
 
@@ -64,18 +65,41 @@ Mobile Prototype
 
 
 
-Component Tree
+#### Component Tree
+ https://whimsical.com/tortuga-component-D9CMQM6C7Ae9SaXSZrPMYe
 
-Component Tree
+
 Component Hierarchy
-### https://whimsical.com/tortuga-component-D9CMQM6C7Ae9SaXSZrPMYe
 
 
+### Component Breakdown
+Component Breakdown
+Component 	Type 	state 	props 	Description
+Header 	functional 	n 	n 	The header will contain the navigation and logo.
+Nav 	functional 	y 	n 	The navigation will provide a link to each of the pages and have icons that link to info about me and my portfolio.
+Main 	functional 	y 	y 	The main will render the site using cards in flexbox and house the methods to be passed as props.
+Login/Register 	functional 	n 	y 	The user will be able to register for and login into their account.
+Recipes 	functional 	n 	y 	The tiles will render the recipes info via props.
+User 	functional 	n 	y 	The user will be able to create their account and access a profile.
+Comments 	functional 	n 	y 	The comments will render with the recipes.
+Time Estimates
+Task 	Priority 	Estimated Time 	Time Invested 	Actual Time
+Add Sign Up/Login Form 	L 	2 hrs 	TBD hrs 	TBD
+Create Front-End CRUD Actions 	H 	20 hrs 	TBD hrs 	TBD
+Create Back-End CRUD Actions 	H 	12 hrs 	TBD hrs 	TBD
+Create seed data 	M 	6 hrs 	TBD hrs 	TBD
+Add Front-End CSS (boilerplate) 	L 	4 hrs 	TBD hrs 	TBD
+Add Front-End CSS (advanced) 	H 	12 hrs 	TBD hrs 	TBD
+Post-MVP 	M 	25 hrs 	TBD hrs 	TBD
+QA & Test application 	M 	6 hrs 	TBD hrs 	TBD
+Deployment 	H 	5 hrs 	TBD hrs 	TBD
+TOTAL 		73 hrs 	TBD hrs 	TBD
+
+
+
+#### Time estimates
 
 
 Post-MVP
 
-    Implement full CRUD on the User and Comments components
-    Include authentication for Users
-    Advanced CSS with hovers and possible changes varying state
-    Build out favorites/likes functionality
+ 
