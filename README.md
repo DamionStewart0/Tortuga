@@ -73,31 +73,52 @@ Component Hierarchy
 
 
 ### Component Breakdown
-Component Breakdown
-Component 	Type 	state 	props 	Description
-Header 	functional 	n 	n 	The header will contain the navigation and logo.
-Nav 	functional 	y 	n 	The navigation will provide a link to each of the pages and have icons that link to info about me and my portfolio.
-Main 	functional 	y 	y 	The main will render the site using cards in flexbox and house the methods to be passed as props.
-Login/Register 	functional 	n 	y 	The user will be able to register for and login into their account.
-Recipes 	functional 	n 	y 	The tiles will render the recipes info via props.
-User 	functional 	n 	y 	The user will be able to create their account and access a profile.
-Comments 	functional 	n 	y 	The comments will render with the recipes.
-Time Estimates
-Task 	Priority 	Estimated Time 	Time Invested 	Actual Time
-Add Sign Up/Login Form 	L 	2 hrs 	TBD hrs 	TBD
-Create Front-End CRUD Actions 	H 	20 hrs 	TBD hrs 	TBD
-Create Back-End CRUD Actions 	H 	12 hrs 	TBD hrs 	TBD
-Create seed data 	M 	6 hrs 	TBD hrs 	TBD
-Add Front-End CSS (boilerplate) 	L 	4 hrs 	TBD hrs 	TBD
-Add Front-End CSS (advanced) 	H 	12 hrs 	TBD hrs 	TBD
-Post-MVP 	M 	25 hrs 	TBD hrs 	TBD
-QA & Test application 	M 	6 hrs 	TBD hrs 	TBD
-Deployment 	H 	5 hrs 	TBD hrs 	TBD
-TOTAL 		73 hrs 	TBD hrs 	TBD
+| component|type       | state | props |             description                   |
+| -------- | ----------|-------|-------| ---------- -------------------------------|
+| Header   |functional |  n    | n     | Header will contain the navgation and logo|
+| Nav      |functional |  y    | n     | Nav will  link different pages            |
+| Login    |functional |  y    | y     | User can register or login to account     |
+| Review   |functional |  n    | y     | Show driver's review                      |
+| User     |functional |  n    | y     | User can create account, add and delete   |
+| Driver   |functional |  n    | y     | Driver full profile and reviews           |
 
 
 
-#### Time estimates
+
+
+| Component                 | Priority | Estimated Time | Time Invested | Actual Time |
+| ------------------------- | :------: | :------------: | :-----------: | :---------: |
+| Proposal                  |    H     |      2hrs      |     1.5hrs   |   1.5hrs    |
+| Airtable setup            |    H     |      3hrs      |     .5hrs    |    .5hrs    |
+| Api call                  |    H     |      3hrs      |     2hrs     |    2hrs     |
+| Create component          |    H     |      3hrs      |     4hrs     |    4hrs     |
+| Build Nav                 |    H     |      3hrs      |     6hrs     |    3hrs     |
+| Build Forms               |    H     |      3hrs      |     4hrs     |    3hrs     |
+| Style Home                |    H     |      3hrs      |     6hrs     |    6hrs     |
+| Style Inventory           |    H     |      3hrs      |     6hrs     |    6hrs     |
+| Style Renter              |    H     |      3hrs      |     6hrs     |    6hrs     |
+| Advance CSS               |    H     |      3hrs      |     8hrs     |    8hrs     |
+| Total                     |    H     |      40hrs     |    39.5 hrs  |   39.5 hrs  |
+
+
+
+
+
+| Component      | Deliverable                                | Status   |
+| -------- | ------------------------------------------ | -------- |
+| Jan 20   | Proposal Approval                          | Complete |
+| Jan 21   | Set Airtable/ Api Call                     | Complete |
+| Jan 22   | Create components/Route and links          | Complete |
+| Jan 22   | Build forms                                | Complete |
+| Jan 23   | Style components                           | Complete |
+| Jan 24   | Advance CSS                                | Complete |
+| Jan 25   | Deploy project                             | Complete |
+| Jan 27   | Presentations                              | Complete |
+
+## Time Estimates
+
+
+
 
 
 Post-MVP
