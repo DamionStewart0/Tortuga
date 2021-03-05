@@ -19,11 +19,11 @@
 
 Overview
 
-This full stack React on Ruby on Rails application allows Buyers to browse a list of cars to for sales/swap. General users will have the ability to browse and select cars, while authenticated sellers can create, update, and delete their cars from the inventory. Additionally sellers will be able to swap cars thatss are the same year, condition and value.
+This full stack React on Ruby on Rails application allows Users to reveiw driver from different ride-sharing platform. The general users will have the ability to browse by company the different drivers and their reveiws, while authenticated user will have the ability create, update, and delete their review. 
 
 MVP
 
-The Living La Vida, Vegan MVP is to complete full CRUD capability for creating and add recipes to your account. The user will be able to create an account and view their recipes and those that others have shared via a tiled page feed.
+Tortuga MVP is to complete full CRUD capability for creating, updating and destroying reveiws. The user will be able to create a profile and see their reveiws and those that were created by others in a column layout.
 
 Goals
 
@@ -43,6 +43,11 @@ Ruby 	dynamic, open source programming language that focuses on simplifying code
 Rails 	server-side web application framework
 Bootstrap 	a component library that allows for easy styling using pre-built components
 
+
+
+Database - ERD
+### https://app.diagrams.net/#G1N_f7x7OjqdMG3JZDANo0iOxmAYpiIbSh
+
 Client (Front End)
 Wireframes
 
@@ -50,9 +55,15 @@ Wireframes
 
 Desktop Prototype
 
-    Mobile View (In Progress)
+    Mobile View
 
 Mobile Prototype
+
+    
+
+
+
+
 Component Tree
 
 Component Tree
@@ -61,16 +72,11 @@ Component Hierarchy
 
 src
 |__ App.js/
-|__ Main/
-       |__Main.jsx
-       |__Main.css
 |__ components/
-    |__Header/
-       |__Header.jsx
-       |__Header.css
-    |__ Nav/
-       |__Nav.jsx
-       |__Header.css
+    |__container/
+       |__MainContainer.jsx
+    |__ layout/
+       |__Nav.jsx 
     |__ Login/
        |__Login.jsx
        |__Login.css
