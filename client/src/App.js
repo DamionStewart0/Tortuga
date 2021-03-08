@@ -1,11 +1,26 @@
-
+import {Switch, Route} from 'react-router-dom';
 import './App.css';
 import { Layout } from './layouts/Layout';
+import { Login } from './screens/Login';
 
 function App() {
   return (
     <Layout>
-      <h3>Welcome to Tortuga</h3>
+      <Switch>
+        <Route path='/login'>
+          <Login />
+        </Route>
+
+        <Route path='/register'>
+          <h3>Register for entry</h3>
+
+        </Route>
+
+        <Route path='/review'>
+          <h3>Enter</h3>
+
+        </Route>
+      </Switch>
     </Layout>
   );
 }
