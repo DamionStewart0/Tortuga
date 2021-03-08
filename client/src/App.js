@@ -1,13 +1,14 @@
 import {Switch, Route} from 'react-router-dom';
 import './App.css';
 import { Layout } from './layouts/Layout';
+import { Login } from './screens/Login';
 
 function App() {
   return (
     <Layout>
       <Switch>
         <Route path='/login'>
-          <h3>Log-in to Tortuga</h3>
+          <Login />
         </Route>
 
         <Route path='/register'>
@@ -15,8 +16,8 @@ function App() {
 
         </Route>
 
-        <Route path='/Reviews'>
-          <h3> Enter</h3>
+        <Route path='/review'>
+          <h3>Enter</h3>
 
         </Route>
       </Switch>

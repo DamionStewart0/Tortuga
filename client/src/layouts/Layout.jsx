@@ -9,7 +9,7 @@ export const Layout = (props) => {
             <h1>Tortuga</h1>
             <Link to='/login'>Login</Link>
             <Link to='/register'>Register</Link>
-            <Link to='/reviews'>Review</Link>
+            <Link to='/review'>Review</Link>
         </header>
         {props.children}
 
