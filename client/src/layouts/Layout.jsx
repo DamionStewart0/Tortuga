@@ -7,9 +7,9 @@ export const Layout = (props) => {
         <div className ='App'>
         <header>
             <h1>Tortuga</h1>
+            <Link to='/review'>Review</Link>
             <Link to='/login'>Login</Link>
             <Link to='/register'>Register</Link>
-            <Link to='/review'>Review</Link>
         </header>
         {props.children}
 
